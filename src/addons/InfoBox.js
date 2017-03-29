@@ -13,6 +13,7 @@ import {
   infoBoxControlledPropTypes,
   infoBoxEventPropTypes,
 } from "./addonsCreators/InfoBoxCreator";
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 /*
  * Original author: @wuct
@@ -65,9 +66,11 @@ export default class InfoBox extends Component {
   render() {
     if (this.state.infoBox) {
       return (
-        <InfoBoxCreator infoBox={this.state.infoBox} {...this.props}>
-          {this.props.children}
-        </InfoBoxCreator>
+        <MuiThemeProvider muiTheme={this.props.muiTheme}>
+          <InfoBoxCreator infoBox={this.state.infoBox} {...this.props}>
+            {this.props.children}
+          </InfoBoxCreator>
+        </MuiThemeProvider>
       );
     } else {
       return (<noscript />);
