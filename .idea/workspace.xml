@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd626704-f007-4a43-bd6b-16cd195b8a3e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/addons/InfoBox.js" afterPath="$PROJECT_DIR$/src/addons/InfoBox.js" />
-    </list>
+    <list default="true" id="dd626704-f007-4a43-bd6b-16cd195b8a3e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -381,15 +377,15 @@
       <updated>1490632918201</updated>
       <workItem from="1490632920351" duration="8860000" />
       <workItem from="1490758182836" duration="455000" />
-      <workItem from="1490759303967" duration="249000" />
+      <workItem from="1490759303967" duration="301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9564000" />
+    <option name="totallyTimeSpent" value="9616000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="135" y="77" width="1280" height="726" extended-state="0" />
+    <frame x="135" y="77" width="1280" height="726" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24543288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
